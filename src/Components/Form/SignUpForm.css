@@ -1,0 +1,94 @@
+.linput{
+    width: 91%;
+    border: 1px solid transparent;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    padding: 4%;
+}
+#vinput{
+    width: 60%;
+    border: 1px solid transparent;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    padding: 4%;
+}
+#vdiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.vbutton{
+    background-color:black;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#condition{
+    font-size: 13px;
+}
+.lsubmit{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.vcode{
+    background-color: #2ec84e;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 4%;
+    font-size: 13px;
+}
+input{
+    outline: none;
+    border-radius: 5px;
+}
+.l_signin{
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 15px;
+}
+/* body{
+    background-color: #f7f7f7;
+} */
+#other_way::after{
+    display: block;
+    content: '';
+    border-top: 1px solid rgba(0,0,0,0.2);
+    flex: 1 1;
+    height: 0px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#other_way::before{
+    display: block;
+    content: '';
+    border-top: 1px solid rgba(0,0,0,0.2);
+    flex: 1 1;
+    height: 0px;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+#other_way{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color:rgba(0,0,0,0.7);
+}
+#l_google{
+    margin: 5% auto;
+    width: 30px;
+}
+#oppo_logo{
+    margin: 7% auto;
+    width: 10.25rem;
+    height: 1.6rem;
+    margin-bottom: 0.41667rem;
+   background-image: url("https://in.sugarcosmetics.com/desc-images/SUGARLogo1.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
